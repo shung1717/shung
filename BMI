@@ -1,0 +1,20 @@
+a = float(input("nhập cân nặng của bạn: (đơn vị kg)"))
+b = float(input("nhập chiều cao của bạn: (đơn vị m)"))
+BMI = a/(b*b)
+print(round(BMI))
+if BMI < 16:
+    print("gầy cấp 3")
+elif 16<= BMI <17:
+    print("gầy cấp 2")
+elif 17<= BMI < 18.5:
+    print("gầy cấp 1")
+elif 18.5<= BMI < 25:
+    print("bình thường")
+elif 25<= BMI <30:
+    print("thừa cân")
+elif 30<= BMI < 35:
+    print("béo phì cấp 1")
+elif 35<= BMI <40:
+    print("béo phì cấp 2")
+else:
+    print("béo phì cấp 3")

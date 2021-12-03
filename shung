@@ -1,0 +1,47 @@
+from random import randint 
+
+print("nhap: bao, bua, keo")
+
+
+player =  raw_input()
+computer = randint(0,2)
+
+
+if computer == 0:
+	computer = "bao"
+d
+if computer == 1:
+	computer = "bua"
+
+if computer == 2:
+	computer = "keo"
+
+print("----")
+print("ban chon: " + player)
+print("may chon: " + computer)
+print("-----")
+if player == computer:
+	print("hoa")
+else:
+	if player == "keo":
+		if computer == "bua":
+			print("thua")
+		else:
+			print("thang")
+
+	elif player == "bua":
+		if computer == "bao":
+			print("thua")
+		else:
+			print("thang")
+
+
+	elif player == "bao":
+		if computer == "keo":
+			print("thua")
+		else:
+			print("thang")	
+	else:
+		print("nhap ma cung sai a")
+
+

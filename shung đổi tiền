@@ -1,0 +1,4 @@
+print(" usd:")
+usd = input()
+vn =  usd* 23000
+print(str(usd) + "đo =" + str(vn) + "Vnd")

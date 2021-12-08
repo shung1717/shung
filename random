@@ -1,0 +1,12 @@
+a = int(input("chọn một số từ 1-10: "))
+
+import random
+b = random.randint(1,10)
+print("bạn chọn: "+ str(a))
+print("số ngẫu nhiên: " + str(b))
+if a == b:
+    print("chúc mừng đúgn rồi đéi")
+else:
+    print("sao mà trúng được")
+
+
